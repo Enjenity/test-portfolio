@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@1&family=Oswald:wght@200&display=swap');
+
+body{
+    background-color: #f7f7f7;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+}
+
+.ava{
+    width: 200px;
+    border-radius: 10px;
+}
+
+.info p {
+    color: #a5a5a5;
+    margin: 0px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.info-text{
+    margin-left: 40px;
+}
+
+.info-text h3, h1, h2{
+    margin-bottom:5px;
+}
+
+.info{
+    margin-bottom: 20px;
+    display: flex;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+.container{
+    max-width: 75%;
+    margin: auto;
+    padding-top:  30px;
+}
+
+.bg-yellow{
+    background: #fff9dc;
+}
+.bg-green{
+    background: #e5ffe7;
+}
+.bg-red{
+    background: #ffe5e5;
+}
+.bg-blu{
+    background: #c0e1e9;
+}
+
+.card{
+    padding: 15px 20px;
+    margin-bottom: 20px;
+    border-radius: 30px;
+}
+
+.list{
+    padding: 0px 20px;
+}
+
+.list li{
+    color: #3f3f3f;
+    margin-bottom: 10px;
+}
+
+.information{
+    padding-bottom: 10px;
+}
+
+.form-group label{
+    display: block;
+    font-size: 14px;
+    color: #86898f;
+}
+
+.form-group input, .form-group textarea{
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    background:  transparent;
+    border-bottom: 1px solid #ccc;
+    color: black;
+    outline:  none;
+    font-family:  inherit;
+    padding: 15px 0px 10px;
+}
+
+.row{
+    display:  flex;
+    margin-bottom: 20px;
+}
+
+.row > .form-group{
+    width: 50%;
+    margin-right: 20px;
+}
+
+.btn{
+    background: black;
+    padding: 15px 20px;
+    color: #f7f7f7;
+    border: none;
+    font-family: inherit;
+    cursor: pointer;
+}
+
+.btn:hover{
+    opacity: 0.9;
+}
+
+@media (max-width: 700px)
+{
+    .info{
+        display: block;
+        text-align: center;
+    }
+}
